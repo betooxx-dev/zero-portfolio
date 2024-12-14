@@ -53,7 +53,7 @@ const ProjectsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
+          name="Todos"
           isSelected={tag === "All"}
         />
         <ProjectTag
